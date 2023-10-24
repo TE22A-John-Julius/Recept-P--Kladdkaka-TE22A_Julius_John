@@ -1,0 +1,9 @@
+.Grid_Box{
+    display: grid;
+    grid-template-columns:0.3fr 2fr 1fr 0.8fr 1fr 2fr 0.3fr ;
+    grid-template-rows: 0.5fr 0.3fr 2fr 1fr 0.2fr 3fr /*fixa denna till 2 olika:1fr*/ 4fr 1fr  ;
+}
+.logo{
+    height: 40px;
+    width: auto;
+}
