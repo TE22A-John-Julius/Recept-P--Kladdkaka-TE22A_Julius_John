@@ -62,7 +62,7 @@ h1::first-letter{
     align-items: center;
    
 } 
-img{
+.Ingridienser{
     width: 40px;
     height: auto;
 }
@@ -89,3 +89,22 @@ font-size: 22px;
 line-height: 25px;
 margin-left: 15px;
 }
+/*/Container Med Info Och Bilder/*/
+.Huvud_Container{
+grid-row: 3/8;
+grid-column: 2/11;
+border: solid #fcb44c 3px;
+border-radius: 25px;
+}
+/*/Bilden/*/
+.Bild{
+    grid-row: 4/7;
+    grid-column: 9/10;
+}
+.Kladdkaka_Bild{
+    border: solid white 5px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.721);
+}
+
+
